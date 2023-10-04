@@ -1,0 +1,6 @@
+# Ignore the build directory
+/build/
+
+# Ignore build files
+/build/**/*.o
+/build/**/*.out
