@@ -18,7 +18,7 @@ Follow the steps mentioned below to run the solutions of chapter one:
 4.) Run the bash shell script <br />
 ```./run_executables.sh```
 
-### If the shell script does not run:
+If the shell script does not run:
 1.) Change the directory <br />
 ```cd Chapter-1```
 
