@@ -25,4 +25,10 @@ If the shell script does not run: <br />
 2.) Run the make command <br />
 ```make all```
 
+3.) Change to build directory <br />
+```cd build```
+
+4.) Run the executable <br />
+```./pc_1.out```
+
 ---
