@@ -4,8 +4,8 @@ This repository consists of my solutions to the programming challenges in the bo
 
 ---
 
-## Chapter one solutions
-Follow the steps mentioned below to run the solutions of chapter one:
+## Chapter One Solutions
+### Build and run
 1.) Pull this git repo <br />
 ```git pull origin main```
 
@@ -30,5 +30,19 @@ If the shell script does not run: <br />
 
 4.) Run the executable <br />
 ```./pc_1.out```
+
+### Build and run using Docker (Recommended)
+Ensure that you have docker engine installed in your system. If not, visit [Install Docker Engine](https://docs.docker.com/engine/install/) for the installation guide.
+
+Run the following commands in the terminal
+
+1.) Pull this git repo <br />
+```git pull origin main```
+
+2.) Build using docker. Omit sudo if the **user** has been added to **docker** group <br />
+```sudo docker build -t starting-out-with-cpp:v1 ./```. <br /> 
+
+3.) Run using the docker engine <br />
+```sudo docker run --rm starting-out-with-cpp:v1```
 
 ---
