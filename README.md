@@ -28,9 +28,11 @@ If the shell script does not run: <br />
 3.) Change to build directory <br />
 ```cd build```
 
-4.) Run the executable <br />
-```./pc_1.out```
-
+4.) Run the executables <br />
+```./pc_1.out```<br />
+```./pc_2.out```<br />
+```./pc_3.out```<br />
+and so on..
 ### Build and run using Docker (Recommended)
 Ensure that you have docker engine installed in your system. If not, visit [Install Docker Engine](https://docs.docker.com/engine/install/) for the installation guide.
 
