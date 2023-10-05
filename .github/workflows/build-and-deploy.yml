@@ -6,7 +6,7 @@ jobs:
   test-led-scheduler:
     runs-on: ubuntu-latest
     name: Build and run Dockerfile
-    if: github.ref == 'refs/heads/chp1'
+    # if: github.ref == 'refs/heads/chp1'
     steps:
         # Check out from this repo
       - name: Check out this repo
