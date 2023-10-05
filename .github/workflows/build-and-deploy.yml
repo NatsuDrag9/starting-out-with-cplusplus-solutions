@@ -1,0 +1,25 @@
+name: Build and Deploy
+
+on: [push]
+
+jobs:
+  test-led-scheduler:
+    runs-on: ubuntu-latest
+    name: Build and run Dockerfile
+    if: github.ref == 'refs/heads/chp1'
+    steps:
+        # Check out from this repo
+      - name: Check out this repo
+        uses: actions/checkout@v3
+
+        # Build the docker image
+      - name: Build Docker image
+        run: docker build -t starting-out-with-cpp:v1 ./
+
+        # Run the image
+      - name: Run image
+        run: docker run --rm starting-out-with-cpp:v1
+
+        # Delete the image
+      - name: Remove the docker image
+        run: docker rmi starting-out-with-cpp:v1
