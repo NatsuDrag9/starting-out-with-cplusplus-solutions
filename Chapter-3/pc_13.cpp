@@ -21,8 +21,8 @@ int main(void)
     stateSalesTax = totalSales * stateSalesTaxFraction;
     float totalSalesTax = countySalesTax + stateSalesTax;
 
-    cout << left << setw(30) << "Month: " << month << year << endl;
-    cout << left << setw(30) << "-----------------------------" << endl;
+    cout << left << "Month: " << month << " " << setw(30) << year << endl;
+    cout << left << setw(30) << "------------------------------" << endl;
     cout << left << setw(30) << "Total Collected: " << "$ " << right << setw(10) << fixed << setprecision(2) << totalAmtCollected << endl;
     cout << left << setw(30) << "Sales: " << "$ " << right << setw(10) << fixed << setprecision(2) << totalSales << endl;
     cout << left << setw(30) << "County Sales Tax: " << "$ " << right << setw(10) << fixed << setprecision(2) << countySalesTax << endl;
