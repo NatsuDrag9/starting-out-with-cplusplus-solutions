@@ -10,7 +10,7 @@ This repository consists of my solutions to the programming challenges in the bo
 ```git pull origin main```
 
 2.) Change the directory <br />
-```cd Chapter-1```
+```cd Chapter-2```
 
 3.) Make the shell script executable <br />
 ```chmod +x run_executables.sh```
