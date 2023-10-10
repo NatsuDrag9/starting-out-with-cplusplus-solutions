@@ -3,10 +3,10 @@ name: Build and Deploy
 on: [push]
 
 jobs:
-  test-led-scheduler:
+  starting-out-with-cpp:
     runs-on: ubuntu-latest
     name: Build and run Dockerfile
-    # if: github.ref == 'refs/heads/chp1'
+    # if: github.ref == 'refs/heads/chp3'
     steps:
         # Check out from this repo
       - name: Check out this repo
