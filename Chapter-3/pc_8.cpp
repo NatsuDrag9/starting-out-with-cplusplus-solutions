@@ -18,14 +18,14 @@ int main(void)
 
     grossProfit = adultTicketCost*nAdultTicketsSold + childTicketCost*nChildTicketsSold;
     netProfit = profitFraction*grossProfit;
-    float distributorAmt = netProfit - grossProfit;
+    float distributorAmt = grossProfit - netProfit;
 
-    cout << left << setw(20) << "Movie Name: " << right << setw(15) << movieName << endl;
-    cout << left << setw(20) << "Adult Tickets Sold: " << right << setw(15) << nAdultTicketsSold << endl;
-    cout << left << setw(20) << "Child Tickets Sold: " << right << setw(15) << nChildTicketsSold << endl;
-    cout << left << setw(20) << "Gross Box Office profit: " << right << setw(8) << fixed << setprecision(2) << "$ " << grossProfit << endl;
-    cout << left << setw(20) << "Amount Paid to Distributor: " << right << setw(8) << fixed << setprecision(2) << "$ " << distributorAmt << endl;
-    cout << left << setw(20) << "Net Box Office Profit: " << right << setw(10) << fixed << setprecision(2) << "$ " << netProfit << endl;
+    cout << left << setw(25) << "Movie Name: " << right << setw(10) << "\"" << movieName << "\"" << endl;
+    cout << left << setw(25) << "Adult Tickets Sold: " << right << setw(14) << nAdultTicketsSold << endl;
+    cout << left << setw(25) << "Child Tickets Sold: " << right << setw(14) << nChildTicketsSold << endl;
+    cout << left << setw(25) << "Gross Box Office profit: " << right << setw(12) << fixed << setprecision(2) << "$ " << grossProfit << endl;
+    cout << left << setw(25) << "Amount Paid to Distributor: " << right << setw(9) << fixed << setprecision(2) << "-$ " << distributorAmt << endl;
+    cout << left << setw(25) << "Net Box Office Profit: " << right << setw(12) << fixed << setprecision(2) << "$ " << netProfit << endl;
 
     return 0;
 }
