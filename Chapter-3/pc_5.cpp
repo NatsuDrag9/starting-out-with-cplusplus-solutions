@@ -12,7 +12,7 @@ int main(void)
     cout << "Enter no. of hits: ";
     cin >> nHits;
 
-    batAvg = (float) nHits / nBat;
+    batAvg = static_cast<float> (nHits) / static_cast<float> (nBat);
     
     cout << "Batting avg (without stream manipulator): " << batAvg << endl;
     cout << fixed << setprecision(4) << "Batting avg (4 decimal places): " << batAvg << endl;
