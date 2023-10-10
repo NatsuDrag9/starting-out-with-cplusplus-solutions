@@ -19,8 +19,8 @@ This repository consists of my solutions to the programming challenges in the bo
 ```./run_executables.sh```
 
 If the shell script does not run: <br />
-1.) Change the directory <br />
-```cd Chapter-1```
+1.) Change to the desired chapter's directory <br />
+```cd Chapter-2```
 
 2.) Run the make command <br />
 ```make all```
