@@ -3,33 +3,35 @@ using namespace std;
 
 int main(void)
 {
-    int sellPrice = 99, nUnits;
-    float discountFraction;
+    float monthlyFee = 10;
+    int nChecks;
 
-    cout << "Enter number of units: ";
-    cin >> nUnits;
+    cout << "Enter number of checks: ";
+    cin >> nChecks;
 
-    if (nUnits < 0)
+    if (nChecks < 0)
     {
-        cout << "Invalid input! Units should be a positive number" << endl;
+        cout << "Invalid input! Number of checks should be a positive number" << endl;
     }
 
-    if((nUnits >=10) && (nUnits <= 19)){
-        discountFraction = 0.2;
+    if (nChecks < 20)
+    {
+        monthlyFee += nChecks * 0.1;
     }
-    else if((nUnits >= 20) && (nUnits <= 49)){
-        discountFraction = 0.3;
+    else if ((nChecks >= 20) && (nChecks <= 39))
+    {
+        monthlyFee += nChecks * 0.08;
     }
-    else if((nUnits >= 50) && (nUnits <= 99)){
-        discountFraction = 0.4;
+    else if ((nChecks >= 40) && (nChecks <= 59))
+    {
+        monthlyFee += nChecks * 0.06;
     }
-    else if (nUnits >= 100){
-        discountFraction = 0.5;
+    else if (nChecks >= 60)
+    {
+        monthlyFee += nChecks * 0.04;
     }
 
-    float totalCost = nUnits*(sellPrice - sellPrice*discountFraction);
-
-    cout << "For " << nUnits << " units the total purchase cost is: $" << totalCost << endl;
+    cout << "Bank's fee for the month: " << monthlyFee << endl;
 
     return 0;
 }
