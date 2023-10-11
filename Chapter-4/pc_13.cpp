@@ -26,14 +26,17 @@ int main(void)
     if ((height1 < 2.0) || (height1 > 5.0))
     {
         cout << "Invalid input! " << height1 << " should be between 2.0 and 5.0." << endl;
+        return 0;
     }
     if ((height2 < 2.0) || (height2 > 5.0))
     {
         cout << "Invalid input! " << height2 << " should be between 2.0 and 5.0." << endl;
+        return 0;
     }
     if ((height3 < 2.0) || (height3 > 5.0))
     {
         cout << "Invalid input! " << height3 << " should be between 2.0 and 5.0." << endl;
+        return 0;
     }
 
     // Comparing heights

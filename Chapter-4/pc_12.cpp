@@ -23,14 +23,17 @@ int main(void)
     if (timeA < 0)
     {
         cout << "Invalid input!" << timeA << " should be a positive number." << endl;
+        return 0;
     }
     if (timeB < 0)
     {
         cout << "Invalid input!" << timeB << " should be a positive number." << endl;
+        return 0;
     }
     if (timeC < 0)
     {
         cout << "Invalid input!" << timeC << " should be a positive number." << endl;
+        return 0;
     }
 
     if ((timeA < timeB) && (timeA < timeC))

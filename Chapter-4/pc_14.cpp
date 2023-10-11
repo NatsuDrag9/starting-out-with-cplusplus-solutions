@@ -17,11 +17,13 @@ int main(void)
     if (weight < 0)
     {
         cout << "Invalid input! " << weight << " has to be a positive value." << endl;
+        return 0;
     }
 
     if (height < 0)
     {
         cout << "Invalid input! " << height << " has to be a positive value." << endl;
+        return 0;
     }
 
     // BMI

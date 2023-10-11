@@ -9,9 +9,11 @@ int main(void)
     cout << "Enter number of checks: ";
     cin >> nChecks;
 
+    // Input validation
     if (nChecks < 0)
     {
         cout << "Invalid input! Number of checks should be a positive number" << endl;
+        return 0;
     }
 
     if (nChecks < 20)

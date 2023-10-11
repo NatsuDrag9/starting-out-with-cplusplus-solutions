@@ -9,9 +9,11 @@ int main(void)
     cout << "Enter number of units: ";
     cin >> nUnits;
 
+    // Input validation
     if (nUnits < 0)
     {
         cout << "Invalid input! Units should be a positive number" << endl;
+        return 0;
     }
 
     if((nUnits >=10) && (nUnits <= 19)){
