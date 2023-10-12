@@ -33,7 +33,7 @@ If the shell script does not run: <br />
 ```./pc_2.out```<br />
 ```./pc_3.out```<br />
 and so on..
-### Build and run using Docker (Recommended)
+### Build and run using Docker
 Ensure that you have docker engine installed in your system. If not, visit [Install Docker Engine](https://docs.docker.com/engine/install/) for the installation guide.
 
 Run the following commands in the terminal
@@ -46,5 +46,7 @@ Run the following commands in the terminal
 
 3.) Run using the docker engine <br />
 ```sudo docker run --rm starting-out-with-cpp:v1```
+
+**Note** - There is no provision to provide inputs from console when running in docker engine 
 
 ---
