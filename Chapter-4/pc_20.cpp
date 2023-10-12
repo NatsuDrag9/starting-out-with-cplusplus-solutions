@@ -4,7 +4,7 @@ using namespace std;
 
 int main(void)
 {
-    const float ETAL_FP = -170.00;
+    const float ETAL_FP = -173.00;
     const float ETAL_BP = 172.00;
     const float MERCURY_FP = -38;
     const float MERCURY_BP = 676;
