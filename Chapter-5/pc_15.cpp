@@ -4,8 +4,8 @@ using namespace std;
 
 int main(void)
 {
-    int nInitial, nMultiplyDays;
-    float avgDailyPopulationIncrease, currentPopultion;
+    int nInitial = 2, nMultiplyDays = 1;
+    float avgDailyPopulationIncrease = 0.1, currentPopultion = 2.0;
 
     cout << "Enter starting number of organisms: ";
     cin >> nInitial;
