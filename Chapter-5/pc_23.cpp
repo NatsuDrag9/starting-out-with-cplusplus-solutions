@@ -56,6 +56,7 @@ int main(void)
         cout << "*";
     }
     cout << endl;
+    inputFile.close();
 
     return 0;
 }
