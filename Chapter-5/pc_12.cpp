@@ -7,7 +7,7 @@ int main(void)
     int currentNum = 0, min = currentNum, max = currentNum;
 
     cout << "Program determines minium and maxium of a series of numbers. Enter " << seriesEndNumber << " to stop entrering." << endl;
-    
+
     // First entry from user
     cout << "Enter number: ";
     cin >> currentNum;
@@ -21,19 +21,24 @@ int main(void)
     }
     else
     {
-        // Loop to detect min and max of series wihout storing the series
-        while (1)
-        {
-            cout << "Enter number: ";
-            cin >> currentNum;
-            if(currentNum != seriesEndNumber){
-                min = (currentNum <= min) ? currentNum : min;
-                max = (currentNum >= max) ? currentNum : max;
-            }
-            else{
-                break;
-            }
-        }
+        /*
+    This block was commented for to prevent github actions workflow from entering into an infinite loop. Uncomment it to run the program
+    */
+        // // Loop to detect min and max of series wihout storing the series
+        // while (1)
+        // {
+        //     cout << "Enter number: ";
+        //     cin >> currentNum;
+        //     if (currentNum != seriesEndNumber)
+        //     {
+        //         min = (currentNum <= min) ? currentNum : min;
+        //         max = (currentNum >= max) ? currentNum : max;
+        //     }
+        //     else
+        //     {
+        //         break;
+        //     }
+        // }
     }
 
     cout << "Min: " << min << " and max: " << max << endl;
