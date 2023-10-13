@@ -1,0 +1,5 @@
+Starting balance at the beginning of three-month period (in ₹): 20000
+Total deposits made during three months (in ₹): 11000
+Total withdrawls made during three months (in ₹): 8000
+Total interest posted to the account during three months (in ₹): 583.333
+Final balance (in ₹): 23000
