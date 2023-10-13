@@ -14,28 +14,32 @@ int main(void)
     // Generate random number
     int randomNumber = min + rand() % max;
 
-    // Run llop until the user guesses correctly
-    while (1)
-    {
-        int userNum;
-        cout << "Enter your guess: ";
-        cin >> userNum;
-        if (userNum < randomNumber)
-        {
-            cout << "Too low. Try again" << endl;
-            continue;
-        }
-        else if (userNum > randomNumber)
-        {
-            cout << "Too high. Try again" << endl;
-            continue;
-        }
-        else if (userNum == randomNumber)
-        {
-            cout << "Congratulations! You figured out my number." << endl;
-            break;
-        }
-    }
+    /*
+   This block was commented for to prevent github actions workflow from entering into an infinite loop. Uncomment it to run the program
+   */
+
+    // // Run loop until the user guesses correctly
+    // while (1)
+    // {
+    //     int userNum;
+    //     cout << "Enter your guess: ";
+    //     cin >> userNum;
+    //     if (userNum < randomNumber)
+    //     {
+    //         cout << "Too low. Try again" << endl;
+    //         continue;
+    //     }
+    //     else if (userNum > randomNumber)
+    //     {
+    //         cout << "Too high. Try again" << endl;
+    //         continue;
+    //     }
+    //     else if (userNum == randomNumber)
+    //     {
+    //         cout << "Congratulations! You figured out my number." << endl;
+    //         break;
+    //     }
+    // }
 
     return 0;
 }
