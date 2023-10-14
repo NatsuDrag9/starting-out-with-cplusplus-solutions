@@ -1,0 +1,5 @@
+
+Base charges (in ₹): 500
+Service charge (in ₹): 100
+Medication charge (in ₹): 2002
+Total (in ₹): 2602

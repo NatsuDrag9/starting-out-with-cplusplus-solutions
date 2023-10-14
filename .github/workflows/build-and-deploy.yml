@@ -6,7 +6,7 @@ jobs:
   starting-out-with-cpp:
     runs-on: ubuntu-latest
     name: Build and run Dockerfile
-    if: github.ref == 'refs/heads/chp5'
+    if: github.ref == 'refs/heads/chp6'
     steps:
         # Check out from this repo
       - name: Check out this repo
