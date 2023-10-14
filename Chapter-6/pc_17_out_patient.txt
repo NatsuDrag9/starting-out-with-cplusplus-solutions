@@ -1,0 +1,4 @@
+
+Service charge (in ₹): 200
+Medication charge (in ₹): 300
+Total (in ₹): 500
