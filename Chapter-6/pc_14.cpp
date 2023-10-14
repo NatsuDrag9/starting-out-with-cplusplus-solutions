@@ -25,21 +25,21 @@ void get_in_patient_data(int &inp1, float &inp2, float &inp3, float &inp4)
         cout << "Invalid input! Days spent in hospital must be greater than or equal to 0. Exiting ...";
         exit(0);
     }
-    cout << "Enter daily rate: ";
+    cout << "Enter daily rate (in ₹): ";
     cin >> inp2;
     if (inp2 < 0)
     {
         cout << "Invalid input! Daily rate must be a positive number. Exiting ...";
         exit(0);
     }
-    cout << "Enter charges for hospital services: ";
+    cout << "Enter charges for hospital services (in ₹): ";
     cin >> inp3;
     if (inp3 < 0)
     {
         cout << "Invalid input! Hospital service charge must be a positive number. Exiting ...";
         exit(0);
     }
-    cout << "Enter hospital medication charge: ";
+    cout << "Enter hospital medication charge (in ₹): ";
     cin >> inp4;
     if (inp4 < 0)
     {
