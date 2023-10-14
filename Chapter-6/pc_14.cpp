@@ -56,14 +56,14 @@ void get_in_patient_data(int &inp1, float &inp2, float &inp3, float &inp4)
  */
 void get_out_patient_data(float &inp1, float &inp2)
 {
-    cout << "\nEnter charges for hospital services: ";
+    cout << "\nEnter charges for hospital services (in ₹): ";
     cin >> inp1;
     if (inp1 < 0)
     {
         cout << "Invalid input! Hospital service charge must be a positive number. Exiting ...";
         exit(0);
     }
-    cout << "Enter hospital medication charge: ";
+    cout << "Enter hospital medication charge (in ₹): ";
     cin >> inp2;
     if (inp2 < 0)
     {
