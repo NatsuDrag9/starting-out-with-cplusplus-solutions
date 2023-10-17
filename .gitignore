@@ -4,3 +4,7 @@
 # Ignore build files
 **/build/*.o
 **/build/*.out
+
+# Ignore files in Chapter-7
+Chapter-7/script.sh
+Chapter-7/makefile
