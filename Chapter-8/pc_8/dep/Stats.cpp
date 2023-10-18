@@ -49,7 +49,7 @@ double Stats::get_total(){
  * @return double - returns the average value
  */
 double Stats::get_average(){
-    double average = get_total() / (static_cast<double>(ARRAY_LENGTH));
+    double average = get_total() / (static_cast<double>(currentIndex));
     return average;
 }
 
