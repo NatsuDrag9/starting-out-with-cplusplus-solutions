@@ -1,30 +1,24 @@
 #!/bin/bash
 
-# Running the makefile
-make all
+# Find all sub-directories starting with pc_
+subdirs=$(find . -type d -name "pc_*")
 
-# Build directory path
-BUILD_DIR="./build"
+# Loop through the sub-directories
+for subdir in ${subdirs}; do
+    if [ -f "${subdir}/makefile" ]; then
+        echo "Running makefile in ${subdir}"
+        # Change to the sub-directory and run make
+        (cd "${subdir}" && make)
 
-# Check if the build directory exists
-if [ -d "${BUILD_DIR}" ]; then
-    # Check if the directory is empty
-    if [ -z "$(ls -A "${BUILD_DIR}")" ]; then
-        echo "${BUILD_DIR} is empty"
+        # Check whether executable exists
+        if [ -f "${subdir}/build/pc_${subdir##*_}.out" ]
+        then
+            echo "Running pc_${subdir##*_}.out in ${subdir}."
+            ./"${subdir}/build/pc_${subdir##*_}.out"
+        else
+            echo "Executable pc_${subdir##*_}.out not found in ${subdir}/build"
+        fi
     else
-        for file in ${BUILD_DIR}/*; do
-            # Check if the file exists
-            if [ -f "${file}" ]; then
-                echo -e "\nRunning $(basename ${file})"
-                ./${file}
-            else
-                echo "$(basename ${file}) does not exist in ${BUILD_DIR}"
-            fi
-        done
+        echo "No makefile found in ${subdir}."
     fi
-else
-    echo "${BUILD_DIR} does not exist"
-fi
-
-# Cleanup
-# make clean
+done
