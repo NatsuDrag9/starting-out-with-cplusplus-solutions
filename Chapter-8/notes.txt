@@ -1,0 +1,5 @@
+Following Chapter-7's directory structure
+
+Skipped programming challenge 5 as the input file containing the rain data was not available
+
+Skipped programming challenge 7 as I didn't want to type 30 days of rainfall day and the input file containing the rainfall data was not available
