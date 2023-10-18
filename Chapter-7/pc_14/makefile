@@ -76,22 +76,22 @@ all: $(EXECUTABLES)
 
 # Builds executables for each application
 $(BUILD_DIR)/%.out: $(APP_OBJ_FILES) $(DEP_OBJ_FILES)
-	@mkdir -p $(BUILD_DIR)
+	# @mkdir -p $(BUILD_DIR)
 	$(CXX) $(CFLAGS) $(DEP_INC_DIR) $^ -o $@
 
 # Builds object files for each application .cpp file
-$(BUILD_DIR)/%.o: $(APP_SRC_DIR)/%.cpp
-	@mkdir -p $(BUILD_DIR)
+$(BUILD_DIR)/%.o: $(APP_SRC_DIR)/%.cpp | $(BUILD_DIR)
+	# @mkdir -p $(BUILD_DIR)
 	$(CXX) $(CFLAGS) $(DEP_INC_DIR) -c $< -o $@
 
 # Builds object files for dependency .cpp file
-$(BUILD_DIR)/%.o: $(DEP_SRC_DIR)/%.cpp
-	@mkdir -p $(BUILD_DIR)
+$(BUILD_DIR)/%.o: $(DEP_SRC_DIR)/%.cpp | $(BUILD_DIR)
+	# @mkdir -p $(BUILD_DIR)
 	$(CXX) $(CFLAGS) $(DEP_INC_DIR) -c $< -o $@
 
 # Creates build directory
-# $(BUILD_DIR):
-# 	@mkdir -p $(BUILD_DIR)
+$(BUILD_DIR):
+	@mkdir -p $(BUILD_DIR)
 
 # Clean rule
 clean:
