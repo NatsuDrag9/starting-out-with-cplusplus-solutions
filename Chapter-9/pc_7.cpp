@@ -46,7 +46,7 @@ void search_array(string arr[], int size, string str)
     bool foundString = false;
     middle = (first + last) / 2;
 
-    for (int i = 0; i < size; i++)
+    while(first <= last)
     {
         middle = (first + last) / 2;
         if (arr[middle] == str)
