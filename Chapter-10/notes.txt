@@ -1,0 +1,6 @@
+Following chapter 6's directory structure
+Avoiding creation of classes
+
+Skipped questions 3 and 4 as I was lazy to copy and edit the United Cause case study program
+
+In question 5, I reduced the number of people to 10 because I was lazy to enter 30 inputs via terminal
