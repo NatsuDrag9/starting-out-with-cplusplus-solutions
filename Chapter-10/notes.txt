@@ -1,0 +1,2 @@
+Following chapter 6's directory structure
+Avoiding creation of classes
