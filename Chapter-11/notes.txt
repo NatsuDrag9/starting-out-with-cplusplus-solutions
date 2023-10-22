@@ -1,0 +1,5 @@
+Following the directory structure of chapter 7 as the challenges involve classes
+
+For question 7, I changed the number of objects from 6 to 3 because I was lazy to enter 24 inputs via console
+
+Skipped question 8 as it involved HTML and I don't want to deal with creating HTML tables using C++ right now
