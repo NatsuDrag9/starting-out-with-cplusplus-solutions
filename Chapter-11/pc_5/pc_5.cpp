@@ -2,7 +2,6 @@
 #include "./inc/PString.h"
 using namespace std;
 
-
 int main(void){
     string userInput;
     cout << "This program tests for a palindrome" << endl;
