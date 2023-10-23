@@ -1,2 +1,3 @@
 Using chapter 6's directory structure as no classes are involved
 
+Skipped questions 14 and 16 as they were too boring
