@@ -1,0 +1,56 @@
+1. File Previewer
+Write a program that asks the user for the name of a text ﬁle. The program should display
+the ﬁrst 10 lines of the ﬁle on the screen. If the ﬁle has fewer than 10 lines, the entire ﬁle
+should be displayed along with a message indicating the entire ﬁle has been displayed.
+2. File Display Program
+Write a program that asks the user for the name of a ﬁle. The program should display the
+contents of the ﬁle on the screen. If the ﬁle’s contents won’t ﬁt on a single screen, the pro-
+gram should display 24 lines of output at a time, and then pause. Each time the program
+pauses, it should wait for the user to type a key before the next 24 lines are displayed.
+3. Punch Line
+Write a program that reads and prints a joke and its punch line from two different ﬁles.
+The ﬁrst ﬁle contains a joke, but not its punch line. The second ﬁle has the punch line as its
+last line, preceded by “garbage.” The main function of your program should open the two
+ﬁles and then call two functions, passing each one the ﬁle it needs. The ﬁrst function should
+read and display each line in the ﬁle it is passed (the joke ﬁle). The second function should
+display only the last line of the ﬁle it is passed (the punch line ﬁle). It should ﬁnd this line
+by seeking to the end of the ﬁle and then backing up to the beginning of the last line. Data
+to test your program can be found in the joke.dat and punchline.dat ﬁles.
+4. Tail of a File
+Write a program that asks the user for the name of a text ﬁle. The program should display
+the last 10 lines of the ﬁle on the screen (the “tail” of the ﬁle). If the ﬁle has less than 10
+lines, the entire ﬁle is displayed, with a message that the entire ﬁle has been displayed. The
+program should do this by seeking to the end of the ﬁle and then backing up to the tenth
+line from the end.
+5. String Search
+Write a program that asks the user for the name of a ﬁle and a string to search for. The pro-
+gram will search the ﬁle for all occurrences of the speciﬁed string and display all lines that
+contain the string. After all occurrences have been
+1. File Previewer
+Write a program that asks the user for the name of a text ﬁle. The program should display
+the ﬁrst 10 lines of the ﬁle on the screen. If the ﬁle has fewer than 10 lines, the entire ﬁle
+should be displayed along with a message indicating the entire ﬁle has been displayed.
+2. File Display Program
+Write a program that asks the user for the name of a ﬁle. The program should display the
+contents of the ﬁle on the screen. If the ﬁle’s contents won’t ﬁt on a single screen, the pro-
+gram should display 24 lines of output at a time, and then pause. Each time the program
+pauses, it should wait for the user to type a key before the next 24 lines are displayed.
+3. Punch Line
+Write a program that reads and prints a joke and its punch line from two different ﬁles.
+The ﬁrst ﬁle contains a joke, but not its punch line. The second ﬁle has the punch line as its
+last line, preceded by “garbage.” The main function of your program should open the two
+ﬁles and then call two functions, passing each one the ﬁle it needs. The ﬁrst function should
+read and display each line in the ﬁle it is passed (the joke ﬁle). The second function should
+display only the last line of the ﬁle it is passed (the punch line ﬁle). It should ﬁnd this line
+by seeking to the end of the ﬁle and then backing up to the beginning of the last line. Data
+to test your program can be found in the joke.dat and punchline.dat ﬁles.
+4. Tail of a File
+Write a program that asks the user for the name of a text ﬁle. The program should display
+the last 10 lines of the ﬁle on the screen (the “tail” of the ﬁle). If the ﬁle has less than 10
+lines, the entire ﬁle is displayed, with a message that the entire ﬁle has been displayed. The
+program should do this by seeking to the end of the ﬁle and then backing up to the tenth
+line from the end.
+5. String Search
+Write a program that asks the user for the name of a ﬁle and a string to search for. The pro-
+gram will search the ﬁle for all occurrences of the speciﬁed string and display all lines that
+contain the string. After all occurrences have been
