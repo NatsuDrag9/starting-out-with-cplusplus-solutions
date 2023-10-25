@@ -2,6 +2,6 @@ Using chapter 6's directory structure as no classes are involved
 
 Couldn't solve question 4
 
-Used existing .txt files in the current directory to test most challenges. I did not create a separate .txt file for each challenge
+Unless I created a separate .txt file for each challenge, I used existing .txt files in the current directory to test most challenges.
 
 For question 7, I added 1 instead of 10 to the ASCII code of each character read from the input file.
