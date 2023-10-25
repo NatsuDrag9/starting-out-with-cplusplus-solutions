@@ -5,3 +5,5 @@ Couldn't solve question 4
 Unless I created a separate .txt file for each challenge, I used existing .txt files in the current directory to test most challenges.
 
 For question 7, I added 1 instead of 10 to the ASCII code of each character read from the input file.
+
+Skipped questions 12 and 13 as they were very similar to 10 and 11
