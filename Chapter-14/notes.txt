@@ -1,1 +1,3 @@
 Using chapter 6's directory structure as no classes are involved
+
+Didn't really understand how the Ackerman algorithm works in question 8
