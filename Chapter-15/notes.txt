@@ -1,0 +1,5 @@
+Following chapter 7 directory structure as these challenges involve classes
+
+I was lazy so I did not rename the Encryption class to AbstractFilter class in question 5
+
+Skipped questions 7 and 8.
