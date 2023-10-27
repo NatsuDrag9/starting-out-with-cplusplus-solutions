@@ -1,0 +1,1 @@
+Following chapter 7 directory structure as these challenges involve classes
