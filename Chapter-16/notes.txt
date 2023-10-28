@@ -1,2 +1,3 @@
 Following chapter 7 directory structure as these challenges involve classes
 
+Directories "inc" and "dep" are empty in challenges which do not involve classes
