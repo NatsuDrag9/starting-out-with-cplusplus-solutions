@@ -17,7 +17,7 @@ int main(void)
     cout << "\nElements of the list:" << endl;
     llObj.print_elements();
 
-    // Searching the position of an element in the list
+    // Inserting new elements into the list
     cout << "\nAdding -10.99 to the list at position 0" << endl;
     llObj.insert(-10.99, 0);
     cout << "Adding -1.99 to the list at position 2" << endl;
