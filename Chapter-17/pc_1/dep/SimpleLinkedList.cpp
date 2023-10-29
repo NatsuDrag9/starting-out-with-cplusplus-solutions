@@ -2,11 +2,20 @@
 #include "../inc/SimpleLinkedList.h"
 using namespace std;
 
+/**
+ * @brief Default constructor that initializes the head of the linked list
+ * 
+ */
 SimpleLinkedList::SimpleLinkedList()
 {
     head = NULL;
 }
 
+/**
+ * @brief Adds an element to the linked list
+ * 
+ * @param x - value to be added
+ */
 void SimpleLinkedList::add(double x)
 {
     if (head == NULL)
@@ -28,6 +37,13 @@ void SimpleLinkedList::add(double x)
     }
 }
 
+/**
+ * @brief Checks whether the received parameter is a member of the linked list and, returns true if the member exists
+ * 
+ * @param x - value to check in the list
+ * @return true
+ * @return false 
+ */
 bool SimpleLinkedList::is_member(double x)
 {
 
