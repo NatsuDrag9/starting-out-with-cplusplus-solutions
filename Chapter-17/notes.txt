@@ -12,3 +12,5 @@ To eliminate the duplicate code for destroying the linked list in both the destr
     Now, you can call the destroyList method of the ReliableNumberList class from within the NumberList2 destructor.
 
 I implemented the solution for SimpleLinkedList and CopyLinkedList classes
+
+Skipped question 12
