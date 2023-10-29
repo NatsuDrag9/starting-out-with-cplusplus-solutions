@@ -1,0 +1,16 @@
+Following chapter 7 directory structure as these challenges involve classes
+
+Skipped question 9 as it is repetitive
+
+Answer to question 11:
+To eliminate the duplicate code for destroying the linked list in both the destructor of the NumberList2 class and the destroyList method of the ReliableNumberList class, you can refactor the code to create a separate function for destroying the list and then call this function from both the destructor and the destroyList method. Here's how you can do it:
+
+    Create a separate member function in the NumberList2 class for destroying the list. Let's call it destroyList.
+
+    In the ReliableNumberList class, change the destroyList method to be a non-member function, not a member of ReliableNumberList. This function can take the list pointer as a parameter.
+
+    Now, you can call the destroyList method of the ReliableNumberList class from within the NumberList2 destructor.
+
+I implemented the solution for SimpleLinkedList and CopyLinkedList classes
+
+Skipped question 12
