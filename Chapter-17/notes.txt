@@ -1,1 +1,3 @@
 Following chapter 7 directory structure as these challenges involve classes
+
+Skipped question 9 as it is repetitive
